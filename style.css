@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Shadows+Into+Light&display=swap');
+
+html, body{
+    height: 100vh;
+    background-color: rgb(64, 167, 64);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 40px;
+    background-image: linear-gradient(rgb(107, 209, 107), rgb(71, 214, 71));
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 8px black;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.horizontal{
+    display: flex;
+    margin: 23px;
+    list-style-type: none;
+}
+
+.horizontal-lista{
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+.horizontal-lista{
+    font-size: 2.2rem;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.horizontal-lista:hover{
+    color: darkgray;
+    filter: drop-shadow(1px 1px 1px black);
+    transition: .3s;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+}
+
+.brasil{
+    width: 450px;
+    height: 300px;
+    box-shadow: 3px 5px 5px #000;
+}
+
+img{
+    width: 175px;
+    height: 125px;
+    padding-top: 5px;
+}
+
+.container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+table, tr, td, th{
+    border: #000 solid 1px;
+    border-collapse: collapse;
+    width: 600px;
+    font-size: 1.3rem;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+td{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+th{
+    background-color: rgb(1, 75, 1);
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+}
